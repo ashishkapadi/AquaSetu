@@ -1,0 +1,241 @@
+training_stage,epoch,loss
+Validation training,1,5967.133623971848
+Validation training,2,5313.883961660598
+Validation training,3,3935.4689983528397
+Validation training,4,2009.952807076226
+Validation training,5,739.6679504441853
+Validation training,6,345.8640172666931
+Validation training,7,199.17045035733148
+Validation training,8,133.22067025170605
+Validation training,9,100.68392986093505
+Validation training,10,82.28458946997286
+Validation training,11,69.5584751195828
+Validation training,12,60.09901304699203
+Validation training,13,52.81450947078787
+Validation training,14,47.076961428407756
+Validation training,15,42.50983413718709
+Validation training,16,38.766028507230615
+Validation training,17,35.73692693184201
+Validation training,18,33.254786759102004
+Validation training,19,31.115287898948864
+Validation training,20,29.353551528162487
+Validation training,21,27.823245717989675
+Validation training,22,26.510397063236585
+Validation training,23,25.380890694625762
+Validation training,24,24.365125835680114
+Validation training,25,23.44935769819723
+Validation training,26,22.634611286019886
+Validation training,27,21.90768944933665
+Validation training,28,21.2267889059303
+Validation training,29,20.613576102392635
+Validation training,30,20.080852993737917
+Validation training,31,19.5491084244807
+Validation training,32,19.078334204602264
+Validation training,33,18.6662737677173
+Validation training,34,18.27511091102575
+Validation training,35,17.908523247833365
+Validation training,36,17.560195087140826
+Validation training,37,17.277865882044328
+Validation training,38,16.99304409903484
+Validation training,39,16.720879277433088
+Validation training,40,16.469197153348553
+Validation training,41,16.26710711497553
+Validation training,42,16.063615142222186
+Validation training,43,15.874553677681769
+Validation training,44,15.676829535048167
+Validation training,45,15.50066682383827
+Validation training,46,15.304437099053414
+Validation training,47,15.210715115502769
+Validation training,48,15.062495930797184
+Validation training,49,14.859187183108139
+Validation training,50,14.757922461704021
+Validation training,51,14.626903924921711
+Validation training,52,14.498248823078056
+Validation training,53,14.391163841780068
+Validation training,54,14.284838131977722
+Validation training,55,14.172015011073913
+Validation training,56,14.07734713962999
+Validation training,57,13.998608857288147
+Validation training,58,13.900939951823977
+Validation training,59,13.829457864372317
+Validation training,60,13.721639569371956
+Validation training,61,13.646413714748226
+Validation training,62,13.565730101559295
+Validation training,63,13.55353718862151
+Validation training,64,13.433915133748718
+Validation training,65,13.344475576844049
+Validation training,66,13.269139769427209
+Validation training,67,13.215669784846758
+Validation training,68,13.124432242226451
+Validation training,69,13.10754283087592
+Validation training,70,12.979358706212539
+Validation training,71,12.942205524765821
+Validation training,72,12.867638026445018
+Validation training,73,12.817494428377096
+Validation training,74,12.73516074870992
+Validation training,75,12.647418793955692
+Validation training,76,12.611620364966436
+Validation training,77,12.55953618119647
+Validation training,78,12.52884501023463
+Validation training,79,12.458007445612402
+Validation training,80,12.40567316008693
+Test training,1,6000.5442693758905
+Test training,2,4734.101228492028
+Test training,3,2255.246160571529
+Test training,4,619.6992743062725
+Test training,5,252.3688148201013
+Test training,6,140.83239270921737
+Test training,7,98.36403013420954
+Test training,8,76.97944941167324
+Test training,9,63.486402241860965
+Test training,10,54.21076529327961
+Test training,11,47.39165187065414
+Test training,12,42.36777752991828
+Test training,13,38.63511070424527
+Test training,14,35.69369880601933
+Test training,15,33.4351389400574
+Test training,16,31.61617210290769
+Test training,17,30.204025744410085
+Test training,18,28.99813816913496
+Test training,19,27.9990334015693
+Test training,20,27.106183789800074
+Test training,21,26.36802783448784
+Test training,22,25.69311025493869
+Test training,23,25.15171478607834
+Test training,24,24.614196766061482
+Test training,25,24.128946625078903
+Test training,26,23.7159368478954
+Test training,27,23.346737921813347
+Test training,28,22.95594046916662
+Test training,29,22.653296129440818
+Test training,30,22.370522326469818
+Test training,31,22.102380375591704
+Test training,32,21.80004057606795
+Test training,33,21.56491421285432
+Test training,34,21.303954836649144
+Test training,35,21.04149998738962
+Test training,36,20.86040737255639
+Test training,37,20.614441880099697
+Test training,38,20.43251557606839
+Test training,39,20.18508078270825
+Test training,40,20.080608721107335
+Test training,41,19.851178888743043
+Test training,42,19.681861020257116
+Test training,43,19.55794626906053
+Test training,44,19.40206619032176
+Test training,45,19.369337976842843
+Test training,46,19.0604342214787
+Test training,47,18.924136333294847
+Test training,48,18.79362519592675
+Test training,49,18.745777715164145
+Test training,50,18.57575154811261
+Test training,51,18.512570170308543
+Test training,52,18.370134939317932
+Test training,53,18.20680645982655
+Test training,54,18.175923247001055
+Test training,55,18.133835176714
+Test training,56,17.957964545325787
+Test training,57,17.882081373451452
+Test training,58,17.797026288762726
+Test training,59,17.71231059589703
+Test training,60,17.65352968483779
+Test training,61,17.58317008829454
+Test training,62,17.592603907705303
+Test training,63,17.46723495739529
+Test training,64,17.3718902328234
+Test training,65,17.31909230424344
+Test training,66,17.24972164826535
+Test training,67,17.123049039551756
+Test training,68,17.06024263379712
+Test training,69,17.055685921134188
+Test training,70,16.968591012467208
+Test training,71,17.00496749708011
+Test training,72,16.909036399812322
+Test training,73,16.782686927828436
+Test training,74,16.718776564051193
+Test training,75,16.67023582178969
+Test training,76,16.58297011211927
+Test training,77,16.623222016861305
+Test training,78,16.594255211071303
+Test training,79,16.502316321687225
+Test training,80,16.344932153560524
+Final production training,1,6003.458710268721
+Final production training,2,3882.9775307040763
+Final production training,3,1026.0193388358114
+Final production training,4,261.55364610073593
+Final production training,5,134.65316531726359
+Final production training,6,97.07759655724996
+Final production training,7,78.76435445550271
+Final production training,8,67.43210065460663
+Final production training,9,59.77379525476571
+Final production training,10,54.54583143426776
+Final production training,11,50.61729446147516
+Final production training,12,47.91988734944166
+Final production training,13,45.82422067874991
+Final production training,14,44.187829536828794
+Final production training,15,42.87810446212878
+Final production training,16,41.82371644076161
+Final production training,17,40.897238577294
+Final production training,18,40.14489377573895
+Final production training,19,39.3700428608519
+Final production training,20,38.74665775485569
+Final production training,21,38.314774942843584
+Final production training,22,37.77857114677889
+Final production training,23,37.304601037745904
+Final production training,24,36.82664342278057
+Final production training,25,36.510292273463406
+Final production training,26,36.161573948207895
+Final production training,27,35.73011238152747
+Final production training,28,35.42801315523702
+Final production training,29,35.1546303617372
+Final production training,30,34.8222567176767
+Final production training,31,34.56566153066423
+Final production training,32,34.25607290556576
+Final production training,33,34.009302347279025
+Final production training,34,33.87190628322258
+Final production training,35,33.476003286781065
+Final production training,36,33.29044225687363
+Final production training,37,33.03313150723689
+Final production training,38,32.878717064405556
+Final production training,39,32.71851986185051
+Final production training,40,32.40733771690582
+Final production training,41,32.29502591695569
+Final production training,42,32.112295480493664
+Final production training,43,31.93021464215803
+Final production training,44,31.927705465597665
+Final production training,45,31.596767383794727
+Final production training,46,31.48070531309775
+Final production training,47,31.722858872610775
+Final production training,48,31.088314604011703
+Final production training,49,30.969451769631334
+Final production training,50,30.926159697334832
+Final production training,51,30.68461614097165
+Final production training,52,30.592536360030728
+Final production training,53,30.468622262982333
+Final production training,54,30.309294785133037
+Final production training,55,30.28773228382384
+Final production training,56,30.09956710254718
+Final production training,57,30.224445622614454
+Final production training,58,29.977920203359638
+Final production training,59,29.868482797473305
+Final production training,60,29.73808122843865
+Final production training,61,29.72240797263899
+Final production training,62,29.6178479668577
+Final production training,63,29.463766313674586
+Final production training,64,29.393017368474688
+Final production training,65,29.297603824023337
+Final production training,66,29.294590483310003
+Final production training,67,29.246507281909828
+Final production training,68,29.103404141130806
+Final production training,69,28.98361528162386
+Final production training,70,28.92231258291263
+Final production training,71,28.841925957084772
+Final production training,72,28.727589839485496
+Final production training,73,28.764292609825134
+Final production training,74,28.792715575208927
+Final production training,75,28.713665269012264
+Final production training,76,28.670616988868172
+Final production training,77,28.31881734532371
+Final production training,78,28.363522854059344
+Final production training,79,28.30216504238767
+Final production training,80,28.195727332707982

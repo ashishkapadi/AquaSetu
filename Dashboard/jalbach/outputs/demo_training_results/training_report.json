@@ -1,0 +1,77 @@
+{
+  "dataset": "Synthetic demo CSV bundle \u2014 not municipal observations",
+  "selected_model_by_validation_MAE": "Extra trees",
+  "test_metrics": [
+    {
+      "split": "Test",
+      "model": "Extra trees",
+      "zone_id": "ALL",
+      "MAE_m3": 7.733741108303467,
+      "RMSE_m3": 21.97669362306569,
+      "samples": 1080,
+      "band_coverage": 0.9138888888888889
+    },
+    {
+      "split": "Test",
+      "model": "Neural network",
+      "zone_id": "ALL",
+      "MAE_m3": 9.185689276129338,
+      "RMSE_m3": 22.281779003588344,
+      "samples": 1080,
+      "band_coverage": 0.9685185185185186
+    },
+    {
+      "split": "Test",
+      "model": "Random forest",
+      "zone_id": "ALL",
+      "MAE_m3": 8.041024077279856,
+      "RMSE_m3": 22.07345760948245,
+      "samples": 1080,
+      "band_coverage": 0.9111111111111111
+    },
+    {
+      "split": "Test",
+      "model": "Seasonal naive",
+      "zone_id": "ALL",
+      "MAE_m3": 8.599192592592592,
+      "RMSE_m3": 22.228394368006647,
+      "samples": 1080,
+      "band_coverage": 0.925
+    }
+  ],
+  "forecast_start_UTC": "2026-09-29 00:00:00+00:00",
+  "forecast_end_UTC": "2026-10-01 23:00:00+00:00",
+  "forecast_demand_m3": 40307.464371803464,
+  "shortage_before_m3": 5301.37167147447,
+  "shortage_after_m3": 329.99878001970507,
+  "redistributed_m3": 4971.3728914547655,
+  "model_file": "/Users/utkarshmacbook/jalbach/artifacts/b57806afe5f270407b43.joblib",
+  "training_metadata": {
+    "version": 3,
+    "fingerprint": "b57806afe5f270407b43",
+    "trained_at": "2026-10-11T10:13:47.695749+00:00",
+    "training_end": "2026-09-28 23:00:00+00:00",
+    "frequency": "h",
+    "zones": [
+      "C",
+      "E",
+      "N",
+      "S",
+      "W"
+    ],
+    "evaluation_horizon": 72,
+    "initial_train_end": "2026-08-23 23:00:00+00:00",
+    "validation_end": "2026-09-10 23:00:00+00:00",
+    "test_end": "2026-09-28 23:00:00+00:00",
+    "weather": "Past-only hour-of-day climatology scenario",
+    "models": [
+      "Random forest",
+      "Extra trees",
+      "Neural network",
+      "Seasonal naive"
+    ],
+    "python": "3.9.6",
+    "sklearn": "1.6.1",
+    "notes": "60/20/20 chronological split; three rolling origins per split. Final model refit on all history. 90% absolute-residual bands and 99% alert thresholds pooled over evaluated leads per zone; nominal coverage is not guaranteed under drift. Holidays not supplied or inferred."
+  }
+}

@@ -1,0 +1,6 @@
+zone_id,zone_name,priority_weight,latitude,longitude
+C,Mumbai,2.0,19.076,72.8777
+E,Kalyan,1.3,19.2403,73.1305
+N,Thane,1.0,19.2183,72.9781
+S,Dombivli,1.0,19.2183,73.0865
+W,Navi Mumbai,1.0,19.033,73.0297

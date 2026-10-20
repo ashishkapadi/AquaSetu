@@ -1,0 +1,6 @@
+"source_zone","destination_zone","capacity_m3","transfer_cost"
+"N","C","30","1"
+"N","E","20","2"
+"W","C","25","1.5"
+"W","E","15","3"
+"W","S","30","1"

@@ -1,0 +1,22 @@
+{
+  "name": "requiem-water-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "lucide-react": "latest",
+    "motion": "^14.1.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-globe.gl": "^2.38.0",
+    "react-router-dom": "^7.18.4",
+    "recharts": "latest",
+    "vite": "latest"
+  }
+}

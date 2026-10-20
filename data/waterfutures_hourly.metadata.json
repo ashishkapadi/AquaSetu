@@ -1,0 +1,25 @@
+{
+  "name": "Water-Futures · BWDF",
+  "url": "https://github.com/WaterFutures/wf4bwdf",
+  "unit": "m³",
+  "timezone": "UTC",
+  "license": "CC BY 4.0 (dataset); MIT (reference implementation)",
+  "notes": [
+    "Real district inflow measurements from the Battle of Water Demand Forecasting benchmark, made available by Water-Futures. These are not Bengaluru or Gangtok readings.",
+    "Source hourly mean flows (L/s) converted to hourly volume (m³) by multiplying by 3.6. Inflow is used as a district-demand proxy and may include network losses.",
+    "CET/CEST source timestamps localized to Europe/Rome, then converted to UTC. Repeated daylight-saving hours are preserved as distinct UTC observations.",
+    "District labels describe the published service-area categories. Geographic locations and pipe connectivity are not asserted.",
+    "Dataset attribution: Alvisi et al. (2025), Battle of Water Demand Forecasting, doi:10.1061/JWRMD5.WRENG-6887; distributed by Water-Futures under CC BY 4.0.",
+    "This app uses its own chronological holdout, not the original competition evaluation weeks; scores are not competition leaderboard results."
+  ],
+  "raw_files": {
+    "InflowData.xlsx": {
+      "url": "https://raw.githubusercontent.com/WaterFutures/wf4bwdf/main/src/wf4bwdf/data/InflowData.xlsx",
+      "sha256": "c239bdb5c98eee00d94fb68b6b0405c39c3ac9b032c6fd4c94bb8d12d00640c0"
+    },
+    "WeatherData.xlsx": {
+      "url": "https://raw.githubusercontent.com/WaterFutures/wf4bwdf/main/src/wf4bwdf/data/WeatherData.xlsx",
+      "sha256": "70729f184c0b47abde2ef2686e28e013693641782d6f1b26b3f28de9c8d0c62c"
+    }
+  }
+}

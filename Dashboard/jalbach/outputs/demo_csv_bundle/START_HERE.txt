@@ -1,0 +1,28 @@
+SMART WATER REDISTRIBUTION — SYNTHETIC DEMO ONLY
+City labels: Mumbai, Thane, Kalyan, Dombivli and Navi Mumbai. Map markers use approximate city locations. Water readings, priorities and connections are synthetic, not municipal measurements or verified infrastructure.
+
+UPLOAD STEPS
+1. Select Upload CSVs on the website.
+2. Consumption history CSV: consumption_with_weather.csv
+3. Observation interval: Hourly. Leave cumulative meter readings unchecked.
+4. Open Optional supply, zone, connection and weather files.
+5. Future supply CSV: supply.csv
+6. Zone metadata CSV: zones.csv
+7. Transfer connections CSV: connections.csv
+8. Leave Historical weather CSV empty: weather is already in consumption_with_weather.csv.
+9. Select Generate forecasts. Choose Random forest and a 24, 48 or 72-hour horizon.
+
+FEATURES
+- Demand forecast: 90 days of hourly history for 5 demo zones (10,800 rows).
+- Weather effect: temperature (Celsius) and rainfall (mm/interval) are embedded in history. Adjust the scenario sliders to compare demand.
+- Abnormal consumption: planted high/low usage episodes for historical anomaly backtests. These are not live alerts.
+- Shortage prediction: 72 hours of scheduled supply for all 5 zones, with donors and shortage zones.
+- Redistribution: 5 directed connections with capacity and cost; zone priority weights guide allocation.
+- Network map: approximate city markers; illustrative boundaries.
+
+UNITS AND DATES
+Consumption, supply and capacities: cubic metres per hourly interval.
+Timestamps: UTC, July 1–September 28, 2026 history; September 29–October 1 supply.
+Forecasts start immediately after the supplied history, not today's date.
+Season/time/day features are derived from timestamps. No separate season column is needed.
+Use all four files together. Extract this ZIP before uploading; the website accepts individual CSVs.

@@ -1,0 +1,43 @@
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+frontend/dist/
+data/*.csv
+data/*.zip
+data/*-original/
+artifacts/
+.pytest_cache/
+*.log
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node.js
+node_modules/
+dist/
+build/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE files
+.vscode/
+.idea/
+.gemini/
+
+# Temporary files and backups
+*.log
+artifacts/
+*.zip
+
+# Operating system
+.DS_Store
+Thumbs.db
