@@ -41,3 +41,29 @@ artifacts/
 # Operating system
 .DS_Store
 Thumbs.db
+
+# Local credentials (including nested applications)
+**/.streamlit/secrets.toml
+.envrc
+.netrc
+_netrc
+.npmrc
+.pypirc
+.git-credentials
+.aws/
+.azure/
+.kube/
+.ssh/
+credentials.json
+credentials-*.json
+service-account*.json
+*-service-account.json
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# Local machine metadata and root-level screen recordings
+__MACOSX/
+/*.mp4
+/*.webm
